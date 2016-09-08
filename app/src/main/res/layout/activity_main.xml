@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txt_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="show material progress"
+            android:textColor="#797979"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/progress_dialog"
+            style="@style/dialog_blue_button"
+            android:layout_below="@id/txt_0"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Try me!"/>
+
+        <TextView
+            android:id="@+id/txt_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="show error message"
+            android:textColor="#797979"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/error_text_test"
+            style="@style/dialog_blue_button"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="Try me!"/>
+
+        <TextView
+            android:id="@+id/txt_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/error_text_test"
+            android:layout_margin="15dp"
+            android:text="A success message"
+            android:textColor="#797979"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/success_text_test"
+            style="@style/dialog_blue_button"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="Try me!"/>
+
+
+        <TextView
+            android:id="@+id/txt_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="A warning message"
+            android:textColor="#797979"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/warning_text_test"
+            style="@style/dialog_blue_button"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="Try me!"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
+
